@@ -398,6 +398,9 @@ h6 {
   #hero {
     background-attachment: fixed;
   }
+  #hero .hero-img img {
+    width: 90%;
+  }
 }
 
 @media (max-width: 991px) {
