@@ -683,9 +683,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# benefits
 --------------------------------------------------------------*/
-.services .icon-box {
+.benefits .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -696,7 +696,7 @@ section {
   z-index: 1;
 }
 
-.services .icon-box::before {
+.benefits .icon-box::before {
   content: "";
   position: absolute;
   background: #e1f0fa;
@@ -709,7 +709,7 @@ section {
   z-index: -1;
 }
 
-.services .icon-box:hover::before {
+.benefits .icon-box:hover::before {
   background: #3498db;
   right: 0;
   top: 0;
@@ -718,7 +718,7 @@ section {
   border-radius: 0px;
 }
 
-.services .icon {
+.benefits .icon {
   margin: 0 auto 20px auto;
   padding-top: 10px;
   display: inline-block;
@@ -730,49 +730,49 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.services .icon i {
+.benefits .icon i {
   font-size: 36px;
   line-height: 1;
   color: #fff;
 }
 
-.services .title {
+.benefits .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .title a {
+.benefits .title a {
   color: #111;
 }
 
-.services .description {
+.benefits .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
 }
 
-.services .icon-box:hover .title a,
-.services .icon-box:hover .description {
+.benefits .icon-box:hover .title a,
+.benefits .icon-box:hover .description {
   color: #fff;
 }
 
-.services .icon-box:hover .icon {
+.benefits .icon-box:hover .icon {
   background: #fff;
 }
 
-.services .icon-box:hover .icon i {
+.benefits .icon-box:hover .icon i {
   color: #3498db;
 }
 
 /*--------------------------------------------------------------
-# More Services
+# More benefits
 --------------------------------------------------------------*/
-.more-services {
+.more-benefits {
   padding-top: 20px;
 }
 
-.more-services .card {
+.more-benefits .card {
   border: 0;
   padding: 160px 20px 20px 20px;
   position: relative;
@@ -782,7 +782,7 @@ section {
   background-position: center center;
 }
 
-.more-services .card-body {
+.more-benefits .card-body {
   z-index: 10;
   background: rgba(255, 255, 255, 0.9);
   padding: 15px 30px;
@@ -792,21 +792,21 @@ section {
   border-radius: 5px;
 }
 
-.more-services .card-title {
+.more-benefits .card-title {
   font-weight: 700;
   text-align: center;
   margin-bottom: 15px;
 }
 
-.more-services .card-title a {
+.more-benefits .card-title a {
   color: #222222;
 }
 
-.more-services .card-text {
+.more-benefits .card-text {
   color: #5e5e5e;
 }
 
-.more-services .read-more a {
+.more-benefits .read-more a {
   color: #777777;
   text-transform: uppercase;
   font-weight: 600;
@@ -814,18 +814,18 @@ section {
   transition: 0.4s;
 }
 
-.more-services .read-more a:hover {
+.more-benefits .read-more a:hover {
   text-decoration: underline;
 }
 
-.more-services .card:hover .card-body {
+.more-benefits .card:hover .card-body {
   background: #3498db;
 }
 
-.more-services .card:hover .read-more a,
-.more-services .card:hover .card-title,
-.more-services .card:hover .card-title a,
-.more-services .card:hover .card-text {
+.more-benefits .card:hover .read-more a,
+.more-benefits .card:hover .card-title,
+.more-benefits .card:hover .card-title a,
+.more-benefits .card:hover .card-text {
   color: #fff;
 }
 
