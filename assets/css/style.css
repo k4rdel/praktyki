@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-  color: #5faee3;
+  color: #8147ff;
   text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #57aae1;
+  background: #8147ff;
   color: #fff;
 }
 
@@ -148,7 +148,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 400;
-  color: #555555;
+  color: #9b9b9b;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -179,7 +179,7 @@ h6 {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #4aa3df;
+  background: #8147ff;
 }
 
 .navbar .dropdown ul {
@@ -588,7 +588,7 @@ section {
   padding: 30px;
   position: relative;
   overflow: hidden;
-  background: #fff;
+  background: #3e3946;
   box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -598,7 +598,7 @@ section {
 .benefits .icon-box::before {
   content: "";
   position: absolute;
-  background: #e1f0fa;
+  background: #6823FB;
   right: -60px;
   top: -40px;
   width: 100px;
