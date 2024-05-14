@@ -648,7 +648,7 @@ section {
 /*--------------------------------------------------------------
 # More benefits
 --------------------------------------------------------------*/
-.more-benefits {
+/* .more-benefits {
   padding-top: 20px;
 }
 
@@ -707,11 +707,15 @@ section {
 .more-benefits .card:hover .card-title a,
 .more-benefits .card:hover .card-text {
   color: #fff;
-}
+} */
 
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
+#features{
+margin-top: -3%;
+}
+
 .features .icon-box {
   display: flex;
   align-items: center;
