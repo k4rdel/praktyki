@@ -1,10 +1,18 @@
+/**
+* Template Name: Vesperr
+* Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
+* Updated: Mar 17 2024 with Bootstrap v5.3.3
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
-  background-color: #fff;
+  color: #F8F9FA;
+  background-color: #0b090a;
 }
 
 a {
@@ -75,7 +83,12 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 22px 0;
-  background: #fff;
+  background: #0b090a;
+  color: #F8F9FA;
+}
+
+#header a{
+  color: #F8F9FA;
 }
 
 #header.header-scrolled {
@@ -94,7 +107,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #222222;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -112,6 +125,7 @@ h6 {
 */
 .navbar {
   padding: 0;
+  background-color: #0b090a;
 }
 
 .navbar ul {
@@ -158,7 +172,7 @@ h6 {
   background: #6823FB;
   padding: 8px 25px;
   margin-left: 30px;
-  border-radius: 50px;
+  border-radius: 5px;
   color: #fff;
 }
 
@@ -356,11 +370,11 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: black;
+  color: white;
 }
 
 #hero h2 {
-  color: #484848;
+  color: #E9ECEF;
   margin-bottom: 50px;
   font-size: 24px;
 }
@@ -428,6 +442,7 @@ h6 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+      color: white;
   }
 
   #hero .hero-img img {
@@ -457,10 +472,12 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  width: 100%;
+  height: 100vh;
 }
 
 .section-bg {
-  background-color: #f7fbfe;
+  background-color: #0b090a;
 }
 
 .section-title {
@@ -473,7 +490,7 @@ section {
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
-  color: #222222;
+  color: white;
 }
 
 .section-title h2::before,
@@ -500,6 +517,11 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+#about{
+  height: 100vh;
+  width: 100%;
+}
+
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -557,7 +579,11 @@ section {
 
 /*--------------------------------------------------------------
 # benefits
---------------------------------------------------------------*/
+--------------------------------------------------------------*/  
+#benefits {
+  height: 100vh;
+}
+
 .benefits .icon-box {
   padding: 30px;
   position: relative;
@@ -706,7 +732,8 @@ section {
 # Features
 --------------------------------------------------------------*/
 #features{
-margin-top: -3%;
+  height: 100vh;
+  width: 100%;
 }
 
 .features .icon-box {
@@ -1272,7 +1299,7 @@ margin-top: -3%;
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #fff;
+  background: #0b090a;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 0;
   color: #222222;
