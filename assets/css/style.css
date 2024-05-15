@@ -13,7 +13,7 @@ a {
 }
 
 a:hover {
-  color: #5faee3;
+  color: #9c15e0;
   text-decoration: none;
 }
 
@@ -50,7 +50,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #57aae1;
+  background: #9c15e0;
   color: #fff;
 }
 
@@ -165,7 +165,7 @@ h6 {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #4aa3df;
+  background: #9c15e0;
 }
 
 .navbar .dropdown ul {
@@ -1029,8 +1029,8 @@ margin-top: -3%;
 }
 
 .pricing .recommended .btn-buy:hover {
-  background: #2383c4;
-  border-color: #2383c4;
+  background: #9c15e0;
+  border-color: #9c15e0;
 }
 
 /*--------------------------------------------------------------
@@ -1193,7 +1193,7 @@ margin-top: -3%;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #2383c4;
+  background: #9c15e0;
 }
 
 @keyframes animate-loading {
