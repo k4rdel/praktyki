@@ -162,8 +162,9 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover>a:not(.getstarted){
   color: #6823FB !important;
+  filter:drop-shadow(1px 1px 0.5rem whitesmoke ) !important;
 }
 
 .navbar .getstarted,
@@ -177,7 +178,8 @@ h6 {
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  color: #fff;
+  color: #fff !important;
+  filter: none !important;
   background: #9c15e0;
 }
 
