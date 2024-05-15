@@ -866,20 +866,20 @@ section {
 #footer {
   background: #0b090a;
   scroll-snap-align: start;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(43, 43, 43, 0.25);
   padding: 30px 0;
-  color: #8f8f8f;
+  color: #ffffff;
   font-size: 14px;
 }
 
 #footer .credits {
   font-size: 13px;
   padding-top: 5px;
-  color: #222222;
+  color: #cacaca;
 }
 
 #footer .footer-links a {
-  color: #222222;
+  color: #cecece;
   padding-left: 15px;
 }
 
