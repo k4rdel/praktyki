@@ -3,6 +3,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html{
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #F8F9FA;
@@ -158,7 +163,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #6823FB;
+  color: #6823FB !important;
 }
 
 .navbar .getstarted,
@@ -468,10 +473,11 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 11em 0;
   overflow: hidden;
   width: 100%;
   height: 100vh;
+  scroll-snap-align: start;
 }
 
 .section-bg {
