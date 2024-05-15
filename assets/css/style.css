@@ -164,7 +164,7 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover>a:not(.getstarted){
   color: #6823FB !important;
-  filter:drop-shadow(1px 1px 0.5rem whitesmoke ) !important;
+  filter:drop-shadow(1px 1px 1.5rem whitesmoke ) !important;
 }
 
 .navbar .getstarted,
@@ -872,11 +872,7 @@ section {
   font-size: 14px;
 }
 
-#footer .credits {
-  font-size: 13px;
-  padding-top: 5px;
-  color: #cacaca;
-}
+
 
 #footer .footer-links a {
   color: #cecece;
@@ -889,4 +885,5 @@ section {
 
 #footer .footer-links a:hover {
   color: #6823FB;
+  filter:drop-shadow(1px 1px 1.5em whitesmoke ) !important;
 }
