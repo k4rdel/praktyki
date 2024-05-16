@@ -394,7 +394,7 @@ h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 30px;
-  border-radius: 50px;
+  border-radius: 5px;
   transition: 0.5s;
   color: #6823FB;
   border: 2px solid #6823FB;
@@ -478,17 +478,17 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 11em 0;
+  padding: 9em 0;
   overflow: hidden;
   width: 100%;
   scroll-snap-align: start;
 }
-/* 
+
 @media (min-width: 1024px) {
   section{
     height: 100vh;
   }
-} */
+}
 
 .section-bg {
   background-color: #0b090a;
@@ -527,6 +527,60 @@ section {
 .section-title p {
   margin: 15px 0 0 0;
 }
+
+/*--------------------------------------------------------------
+# How it works
+--------------------------------------------------------------*/
+#howitworks{
+  width: 100%;
+}
+
+.howitworks p{
+  text-align: left;
+  line-height: 1.6;
+}
+
+.howitworks .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.howitworks .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.howitworks .content ul li {
+  padding-left: 28px;
+  position: relative;
+}
+
+.howitworks .content ul li+li {
+  margin-top: 10px;
+}
+
+.howitworks .content ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #6823FB;
+  line-height: 1;
+}
+
+.howitworks .content p:last-child {
+  margin-bottom: 0;
+}
+
+#howitworks img {
+  margin: -2em 0 0 3em;
+  width: 90%;
+}
+
+#howitworks .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
 
 /*--------------------------------------------------------------
 # About Us
@@ -574,7 +628,7 @@ section {
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
-  border-radius: 50px;
+  border-radius: 5px;
   transition: 0.3s;
   line-height: 1;
   color: #6823FB;
@@ -716,7 +770,6 @@ section {
 
 .features .icon-box:hover {
   box-shadow: 1px 1px 1rem gray;
-  /*cien kurwa do hovera w featurach !JABOL*/
 }
 .features .icon-box:hover {
   
@@ -754,115 +807,26 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Contact
+# Footer
 --------------------------------------------------------------*/
 
-
-
-
-.contact .info {
-  
-
+#footer .info {
   color: whitesmoke;
 }
 
-.contact .info i {
+#footer .info i {
   font-size: 32px;
   color: #6823FB;
   float: left;
   line-height: 1;
 }
 
-.contact .info p {
+#footer .info p {
   padding: 0 0 10px 42px;
   line-height: 28px;
   font-size: 14px;
 }
 
-.contact  .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact  .error-message br+br {
-  margin-top: 25px;
-}
-
-.contact  .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact  .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact  .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact  .form-group {
-  margin-bottom: 20px;
-}
-
-.contact  input,
-.contact  textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  padding: 10px 15px;
-}
-
-.contact  input:focus,
-.contact  textarea:focus {
-  border-color: #6823FB;
-}
-
-.contact  button[type=submit] {
-  background: #6823FB;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.contact  button[type=submit]:hover {
-  background: #9c15e0;
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
 #footer {
   background: #0b090a;
   scroll-snap-align: start;
@@ -871,8 +835,6 @@ section {
   color: #ffffff;
   font-size: 14px;
 }
-
-
 
 #footer .footer-links a {
   color: #cecece;
