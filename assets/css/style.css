@@ -651,6 +651,12 @@ section {
 /*--------------------------------------------------------------
 # benefits
 --------------------------------------------------------------*/  
+.benefits{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .benefits .icon-box {
   padding: 30px;
@@ -735,13 +741,17 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
+.features{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .features .icon-box {
   display: flex;
   align-items: center;
   padding: 20px;
   background: #3e3946;
-  
   transition: ease-in-out 0.3s;
 }
 
@@ -765,7 +775,6 @@ section {
 }
 
 .features .icon-box:hover{
-  
   background: #6823FB;
 }
 
@@ -837,7 +846,7 @@ section {
 #footer {
   background: #0b090a;
   scroll-snap-align: start;
-  box-shadow: 0px 0px 30px rgba(43, 43, 43, 0.25);
+  box-shadow: 0px 0px 30px rgba(31, 31, 31, 0.25);
   padding: 30px 0;
   color: #ffffff;
   font-size: 14px;
