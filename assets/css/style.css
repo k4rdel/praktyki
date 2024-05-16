@@ -395,7 +395,7 @@ h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 30px;
-  border-radius: 50px;
+  border-radius: 5px;
   transition: 0.5s;
   color: #6823FB;
   border: 2px solid #6823FB;
@@ -629,7 +629,7 @@ section {
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
-  border-radius: 50px;
+  border-radius: 5px;
   transition: 0.3s;
   line-height: 1;
   color: #6823FB;
@@ -814,14 +814,19 @@ section {
 #footer .info i {
   font-size: 32px;
   color: #6823FB;
-  float: left;
+  margin-right: 10px;
   line-height: 1;
 }
 
 #footer .info p {
-  padding: 0 0 10px 42px;
+  padding: 0 0 10px 0;
   line-height: 28px;
   font-size: 14px;
+}
+
+#footer .icons{
+  display: flex;
+  justify-content: center;
 }
 
 #footer {
