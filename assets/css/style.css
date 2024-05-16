@@ -371,6 +371,7 @@ h6 {
 
 #hero img {
   filter:drop-shadow(0 0 35px rgb(63, 63, 63));
+
 }
 
 #hero h1 {
@@ -394,7 +395,7 @@ h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 30px;
-  border-radius: 5px;
+  border-radius: 50px;
   transition: 0.5s;
   color: #6823FB;
   border: 2px solid #6823FB;
@@ -628,7 +629,7 @@ section {
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
-  border-radius: 5px;
+  border-radius: 50px;
   transition: 0.3s;
   line-height: 1;
   color: #6823FB;
