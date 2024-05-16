@@ -756,22 +756,18 @@ section {
   font-size: 16px;
 }
 
-.features .icon-box h3 a {
-  color:#dee2e6;
+.features .icon-box h3{
+  color:#dee2e6 !important;
   transition: ease-in-out 0.3s;
 }
 
 .features .icon-box:hover{
-  /* color: #6823FB !important; */
-  background-color: inherit;
+  
+  background: #6823FB;
 }
 
 .features .icon-box:hover {
   box-shadow: 1px 1px 1rem gray;
-}
-.features .icon-box:hover {
-  
-  background: #6823FB;
 }
 
 /*--------------------------------------------------------------
