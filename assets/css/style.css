@@ -856,3 +856,15 @@ section {
   color: #6823FB;
   filter:drop-shadow(1px 1px 1.5em whitesmoke ) !important;
 }
+/* breadcrumbs aka druga strona !pizda */
+
+#main h3 {
+  line-height: 15px;
+  
+  color: red !important;
+  
+}
+#main p{
+word-spacing: 1.5px;
+line-height: 1.4em;
+}
