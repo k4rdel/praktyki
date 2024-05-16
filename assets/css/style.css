@@ -803,6 +803,9 @@ section {
 .faq .faq-item p {
   font-size: 15px;
 }
+.faq {
+  margin-bottom: 30px;
+}
 
 /*--------------------------------------------------------------
 # Footer
