@@ -3,9 +3,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-html{
-  scroll-snap-type: y mandatory;
-  scroll-behavior: smooth;
+
+@media (min-width: 1024px) {
+  html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+  }
 }
 
 body {
@@ -458,7 +461,7 @@ h6 {
 
 @media (max-width: 575px) {
   #hero .hero-img img {
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -479,9 +482,14 @@ section {
   padding: 11em 0;
   overflow: hidden;
   width: 100%;
-  height: 100vh;
   scroll-snap-align: start;
 }
+/* 
+@media (min-width: 1024px) {
+  section{
+    height: 100vh;
+  }
+} */
 
 .section-bg {
   background-color: #0b090a;
@@ -525,7 +533,6 @@ section {
 # About Us
 --------------------------------------------------------------*/
 #about{
-  height: 100vh;
   width: 100%;
 }
 
@@ -587,9 +594,6 @@ section {
 /*--------------------------------------------------------------
 # benefits
 --------------------------------------------------------------*/  
-#benefits {
-  height: 100vh;
-}
 
 .benefits .icon-box {
   padding: 30px;
@@ -674,10 +678,6 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
-#features{
-  height: 100vh;
-  width: 100%;
-}
 
 .features .icon-box {
   display: flex;
