@@ -761,12 +761,9 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.features .icon-box h3 a:hover {
-  color: #6823FB !important;
-}
-.features .icon-box:hover h3 a{
-  color: #ae34ec;
-  
+.features .icon-box:hover{
+  /* color: #6823FB !important; */
+  background-color: inherit;
 }
 
 .features .icon-box:hover {
@@ -774,7 +771,7 @@ section {
 }
 .features .icon-box:hover {
   
-  background: #eef7fc;
+  background: #6823FB;
 }
 
 /*--------------------------------------------------------------
