@@ -841,10 +841,19 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+.copyright {
+opacity: 70%;
+}
 
 #footer .info {
   color: whitesmoke;
   margin-bottom: 1.5em;
+}
+
+@media (max-width: 991px) {
+  .copyright {
+    margin-bottom: 0.5em;
+  }
 }
 
 #footer .info i {
@@ -891,10 +900,9 @@ section {
 
 #main h3 {
   line-height: 15px;
-  
   color: red !important;
-  
 }
+
 #main p{
 word-spacing: 1.5px;
 line-height: 1.4em;
