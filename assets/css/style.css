@@ -907,3 +907,8 @@ opacity: 70%;
 word-spacing: 1.5px;
 line-height: 1.4em;
 }
+.carousel-item img{
+  width: 5em;
+  height: 30em;
+  
+}
