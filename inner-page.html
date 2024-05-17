@@ -145,6 +145,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script>
+    let b=0;
     for(let i=0; i<10;i++){
       
     let jajco15=document.createElement('div');
@@ -153,7 +154,18 @@
       let jajco= document.createElement('img');
   jajco.classList.add('d-block');
   jajco.classList.add('w-100');
-  jajco.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToV2_ZNmg4-Xb8ETpiXVEnpNKKXRERcOY5rgH0DJ6WYg&s';
+  let aaaa=['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUau2uzGuGOsgjpfTR9nImX9hM-rdTFtfLwDROgnnQwQ&s',
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToV2_ZNmg4-Xb8ETpiXVEnpNKKXRERcOY5rgH0DJ6WYg&s',
+  'https://beermacia.com/wp-content/uploads/2020/11/000A9SLAF9071M2C-C0.jpeg',
+  'https://polskikoszyk.pl/media/catalog/product/290651/690925.jpg',
+  'https://lh3.googleusercontent.com/proxy/k4dh0zuK41S7T-ZEigDHpZQudm2Ax_562t6p8WU3mSE6-aBJNXNk4XlX6N-XRcB-h0i5Sl9WuLwQcwGmiddXvDmgnPg56WDddSAqzdMftiH3gB4'
+]
+  
+  if(b>(aaaa.length-1)){
+    b=0
+  }
+  jajco.src=`${aaaa[b]}`;
+  b++;
   
      let s=document.getElementById('jajco30');
       s.appendChild(jajco15);
