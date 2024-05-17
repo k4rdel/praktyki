@@ -66,8 +66,11 @@
       <div class="container">
         <div class="row">
           <h3><img src="assets/img/jajco.gif" alt="Jajco"></h3>
-        <div id="carouselExampleControls" class="carousel slide carousel-fade col-12" data-bs-ride="carousel">
-          <div class="carousel-inner">
+        <div id="carouselExampleControls" class="carousel carousel-dark slide carousel-fade col-12" data-bs-ride="carousel">
+
+         
+
+          <div class="carousel-inner" id="jajco30">
             <div class="carousel-item active">
               <img src="https://ireland.apollo.olxcdn.com/v1/files/6nvs7fsmen511-PL/image;s=1000x700" class="d-block w-100" alt="...">
             </div>
@@ -141,7 +144,23 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    for(let i=0; i<10;i++){
+      
+    let jajco15=document.createElement('div');
+    jajco15.classList.add('carousel-item');
 
+      let jajco= document.createElement('img');
+  jajco.classList.add('d-block');
+  jajco.classList.add('w-100');
+  jajco.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToV2_ZNmg4-Xb8ETpiXVEnpNKKXRERcOY5rgH0DJ6WYg&s';
+  
+     let s=document.getElementById('jajco30');
+      s.appendChild(jajco15);
+     let jd=document.getElementsByClassName('carousel-item')[i+3];
+      jd.appendChild(jajco);
+    }
+</script>
 </body>
 
 </html>
