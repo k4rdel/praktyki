@@ -673,7 +673,9 @@ section {
   justify-content: center;
 }
 
-
+#faq.hidden {
+  display: none;
+}
 .benefits .icon-box {
   padding: 30px;
   position: relative;
