@@ -914,6 +914,6 @@ line-height: 1.4em;
   filter:drop-shadow(1px 1px 3rem rgb(45, 45, 45))
 }
 
-.carousel-control-prev-icon{
+.carousel-control-prev-icon, .carousel-control-next-icon{
   opacity: 0;
 }
