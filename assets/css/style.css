@@ -15,6 +15,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #F8F9FA;
   background-color: #0b090a;
+  
 }
 
 a {
@@ -111,8 +112,9 @@ h6 {
 #header .logo h1 a:hover {
   color: #fff;
   text-decoration: none;
+  
 }
-w
+/* cursor faka pokazuje xd */
 #header .logo img {
   padding: 0;
   margin: 0;
