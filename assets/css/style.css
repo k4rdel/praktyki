@@ -95,7 +95,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.048);
   padding: 12px 0;
 } 
 
@@ -665,6 +665,54 @@ section {
   }
 }
 
+/*--------------------------------------------------------------
+# Second About Us
+--------------------------------------------------------------*/
+#about1{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.about1 .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.about1 .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about1 .content ul li {
+  padding-left: 28px;
+  position: relative;
+}
+
+.about1 .content ul li+li {
+  margin-top: 10px;
+}
+
+.about1 .content ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #6823FB;
+  line-height: 1;
+}
+
+.about1 .content p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .about1{
+    text-align: center;
+  }
+}
 
 /*--------------------------------------------------------------
 # benefits
@@ -808,10 +856,10 @@ section {
   padding: 5px 0;
   border-bottom: 1px solid #eeeeee;
 }
+
 .faq .spec-item{
   margin: 20px 0;
   padding: 5px 0;
- 
 }
 
 .faq .spec-item i {
@@ -855,8 +903,9 @@ section {
 .faq .spec-item p {
   font-size: 15px;
 }
+
 .faq {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 991px) {
