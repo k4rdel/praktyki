@@ -993,3 +993,8 @@ line-height: 1.4em;
 .carousel-control-next-icon, .carousel-control-prev-icon{
   opacity: 0;
 }
+@media (min-width: 1024px) {
+#imp{
+  margin-top: -5em;
+  }
+}
