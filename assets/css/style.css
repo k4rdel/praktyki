@@ -481,13 +481,13 @@ section {
   padding: 4em 0;
   overflow: hidden;
   width: 100%;
-  scroll-snap-align: start;
 }
 
 @media (min-width: 1024px) {
   #firstpage section{
     height: 100vh;
     padding: 9em 0;
+    scroll-snap-align: start;
   }
 }
 
@@ -674,7 +674,7 @@ section {
   align-items: center;
   justify-content: center;
   height: 100%;
-  margin-top: 0.5em;
+  margin-top: 50px;
 }
 
 .about1 .content h3 {
@@ -953,11 +953,14 @@ opacity: 70%;
 
 #footer {
   background: #0b090a;
-  scroll-snap-align: start;
   box-shadow: 0px 0px 30px rgba(31, 31, 31, 0.25);
   padding: 30px 0;
   color: #ffffff;
   font-size: 14px;
+}
+
+#firstpage #footer{
+  scroll-snap-align: start;
 }
 
 #footer .footer-links a {
