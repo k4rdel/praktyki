@@ -485,7 +485,7 @@ section {
 }
 
 @media (min-width: 1024px) {
-  section{
+  #firstpage section{
     height: 100vh;
     padding: 9em 0;
   }
